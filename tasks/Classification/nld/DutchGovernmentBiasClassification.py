@@ -7,7 +7,7 @@ class DutchGovernmentBiasClassification(AbsTaskClassification):
     samples_per_label = 32
     metadata = TaskMetadata(
         name="DutchGovernmentBiasClassification",
-        description="classification.",
+        description="The Dutch Government Data for Bias Detection (DGDB) is a dataset sourced from the Dutch House of Representatives and annotated for bias by experts",
         reference="https://dl.acm.org/doi/pdf/10.1145/3696410.3714526",
         dataset={
             "path": "milenamileentje/Dutch-Government-Data-for-Bias-detection",

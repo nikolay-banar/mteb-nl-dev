@@ -23,7 +23,7 @@ class VABBClassification(AbsTaskClassification):
         eval_langs=["nld-Latn"],
         main_score="f1",
         date=("2020-01-01", "2021-04-01"),
-        domains=["Web", "Social", "Written"],
+        domains=["Academic", "Written"],
         task_subtypes=[],
         license="cc-by-4.0",
         annotations_creators="human-annotated",
