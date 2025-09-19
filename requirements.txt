@@ -1,0 +1,6 @@
+mteb==1.38.33
+accelerate==1.8.1
+datasets==3.6.0
+peft
+protobuf
+transformers[sentencepiece]
