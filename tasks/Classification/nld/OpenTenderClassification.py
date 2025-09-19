@@ -11,7 +11,7 @@ class OpenTenderClassification(AbsTaskClassification):
             "revision": "53221b9d10649a531dceccdab8155ab795a59bbb",
         },
         description="This dataset contains Belgian and Dutch tender calls from OpenTender in Dutch",
-        reference="https://aclanthology.org/2021.findings-emnlp.56.pdf",
+        reference="https://arxiv.org/abs/2509.12340",
         type="Classification",
         category="s2s",
         modalities=["text"],
@@ -25,7 +25,15 @@ class OpenTenderClassification(AbsTaskClassification):
         annotations_creators="human-annotated",
         dialect=[],
         sample_creation="found",
-        bibtex_citation=r"""""",
+        bibtex_citation=r"""@misc{banar2025mtebnle5nlembeddingbenchmark,
+      title={MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch}, 
+      author={Nikolay Banar and Ehsan Lotfi and Jens Van Nooten and Cristina Arhiliuc and Marija Kliocaite and Walter Daelemans},
+      year={2025},
+      eprint={2509.12340},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.12340}, 
+}""",
     )
 
     def dataset_transform(self) -> None:
