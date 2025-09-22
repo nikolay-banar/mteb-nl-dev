@@ -6,10 +6,6 @@ from mteb.overview import MTEBTasks, get_tasks
 
 from mteb.benchmarks.get_benchmark import BENCHMARK_REGISTRY
 from tasks.Retrieval.nld.bBSARDNLRetrieval import bBSARDNLRetrieval
-from tasks.Retrieval.nld.ClimateFEVERNLv2Retrieval import ClimateFEVERNLv2
-from tasks.Retrieval.nld.FEVERNLv2Retrieval import FEVERNLv2
-from tasks.Retrieval.nld.HotpotQANLv2Retrieval import HotpotQANLv2
-from tasks.Retrieval.nld.NQNLv2Retrieval import NQNLv2
 from tasks.Retrieval.nld.DutchNewsArticlesRetrieval import DutchNewsArticlesRetrieval
 from tasks.Retrieval.nld.LegalQARetrieval import LegalQANLRetrieval
 from tasks.Retrieval.nld.VABBRetrieval import VABBRetrieval
@@ -32,7 +28,6 @@ from tasks.Classification.nld.DutchSarcasticHeadlinesClassification import (
 from tasks.Classification.nld.DutchGovernmentBiasClassification import (
     DutchGovernmentBiasClassification,
 )
-from tasks.Classification.nld.VABBClassification import VABBClassification
 from tasks.Classification.nld.OpenTenderClassification import OpenTenderClassification
 from tasks.Classification.nld.IconclassClassification import IconclassClassification
 
@@ -66,10 +61,6 @@ from tasks.MultiLabelClassification.nld.VABBMultiLabelClassification import (
 from tasks.STS.nld.SICKNLSTS import SICKNLSTS
 
 TASKS_REGISTRY["bBSARDNLRetrieval"] = bBSARDNLRetrieval
-TASKS_REGISTRY["ClimateFEVER-NL-v2"] = ClimateFEVERNLv2
-TASKS_REGISTRY["FEVER-NL-v2"] = FEVERNLv2
-TASKS_REGISTRY["HotpotQA-NL-v2"] = HotpotQANLv2
-TASKS_REGISTRY["NQ-NL-v2"] = NQNLv2
 TASKS_REGISTRY["DutchNewsArticlesRetrieval"] = DutchNewsArticlesRetrieval
 TASKS_REGISTRY["LegalQANLRetrieval"] = LegalQANLRetrieval
 TASKS_REGISTRY["VABBRetrieval"] = VABBRetrieval
@@ -85,7 +76,6 @@ TASKS_REGISTRY["DutchSarcasticHeadlinesClassification"] = (
     DutchSarcasticHeadlinesClassification
 )
 TASKS_REGISTRY["DutchGovernmentBiasClassification"] = DutchGovernmentBiasClassification
-TASKS_REGISTRY["VABBClassification"] = VABBClassification
 TASKS_REGISTRY["OpenTenderClassification"] = OpenTenderClassification
 TASKS_REGISTRY["IconclassClassification"] = IconclassClassification
 
