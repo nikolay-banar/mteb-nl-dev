@@ -14,9 +14,6 @@ from tasks.Retrieval.nld.OpenTenderRetrieval import OpenTenderRetrieval
 from tasks.Classification.nld.VaccinChatNLClassification import (
     VaccinChatNLClassification,
 )
-from tasks.PairClassification.nld.SQuADNLPairClassification import (
-    SQuADNLPairClassification,
-)
 from tasks.Classification.nld.DutchNewsArticlesClassification import (
     DutchNewsArticlesClassification,
 )
@@ -67,7 +64,6 @@ TASKS_REGISTRY["OpenTenderRetrieval"] = OpenTenderRetrieval
 
 
 TASKS_REGISTRY["VaccinChatNLClassification"] = VaccinChatNLClassification
-TASKS_REGISTRY["SQuADNLPairClassification"] = SQuADNLPairClassification
 TASKS_REGISTRY["DutchNewsArticlesClassification"] = DutchNewsArticlesClassification
 TASKS_REGISTRY["DutchColaClassification"] = DutchColaClassification
 TASKS_REGISTRY["DutchSarcasticHeadlinesClassification"] = (
