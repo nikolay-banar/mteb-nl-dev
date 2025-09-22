@@ -10,7 +10,6 @@ from tasks.Retrieval.nld.DutchNewsArticlesRetrieval import DutchNewsArticlesRetr
 from tasks.Retrieval.nld.LegalQARetrieval import LegalQANLRetrieval
 from tasks.Retrieval.nld.VABBRetrieval import VABBRetrieval
 from tasks.Retrieval.nld.OpenTenderRetrieval import OpenTenderRetrieval
-from tasks.Retrieval.nld.DBPediaNLv2Retrieval import DBPediaNLv2Retrieval
 
 from tasks.Classification.nld.VaccinChatNLClassification import (
     VaccinChatNLClassification,
@@ -65,7 +64,6 @@ TASKS_REGISTRY["DutchNewsArticlesRetrieval"] = DutchNewsArticlesRetrieval
 TASKS_REGISTRY["LegalQANLRetrieval"] = LegalQANLRetrieval
 TASKS_REGISTRY["VABBRetrieval"] = VABBRetrieval
 TASKS_REGISTRY["OpenTenderRetrieval"] = OpenTenderRetrieval
-TASKS_REGISTRY["DBPedia-NL-v2"] = DBPediaNLv2Retrieval
 
 
 TASKS_REGISTRY["VaccinChatNLClassification"] = VaccinChatNLClassification
